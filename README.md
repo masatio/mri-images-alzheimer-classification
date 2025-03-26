@@ -13,7 +13,7 @@ The dataset consists of MRI scans labeled as:
 
 ## Data Preprocessing
 
-Images were resized to 224x224 to match EfficientNet-b2 input. After that, pixel values were normalized and images were converted to tensors. Data was split into the train, validation, and test sets in the ratio 60:20:20.
+Images were resized to 224x224 to match EfficientNet-b2 input. After that, pixel values were normalized and images were converted to tensors. The dataset was split into training (80%), validation (10%), and test (10%) sets.
 
 ![image](https://github.com/user-attachments/assets/cbf50b2f-7d19-4c9c-835b-99c69b0b5ce6)
 
